@@ -1,6 +1,6 @@
 {
   // --- Rust 言語設定 (rust-analyzer) ---
-  "rust-analyzer.server.path": "rust-analyzer",
+  "rust-analyzer.server.path": null,
   "rust-analyzer.updates.channel": "stable",
   "rust-analyzer.checkOnSave": true,
   "rust-analyzer.check.command": "clippy",

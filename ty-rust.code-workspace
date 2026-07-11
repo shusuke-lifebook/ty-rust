@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+    {
+      "name": "intro",
+      "path": "intro",
+    },
+    {
+      "path": "basic",
+    },
+  ],
+  "settings": {
+    "rust-analyzer.checkOnSave": true,
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.procMacro.enable": true,
+    "rust-analyzer.imports.granularity.group": "module",
+    "rust-analyzer.imports.prefix": "crate",
+    "terminal.integrated.env.linux": {
+      "PATH": "${env:HOME}/.cargo/bin:${env:PATH}",
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Monokai",
+  },
+}

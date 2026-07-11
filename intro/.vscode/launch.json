@@ -1,0 +1,101 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug executable 'comment'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=comment"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'comment'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=comment"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'doc_comment'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=doc_comment"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'doc_comment'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=doc_comment"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'intro'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=intro"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'intro'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=intro"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'sample'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=sample"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'sample'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=sample"
+                ]
+            }
+        }
+    ]
+}

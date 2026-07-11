@@ -23,7 +23,7 @@ Cargo.lock
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/tasks.json
-*.code-workspace
+!*.code-workspace
 
 # --- OS / Temp ---
 .DS_Store

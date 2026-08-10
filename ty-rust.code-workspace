@@ -8,7 +8,12 @@
       "path": "intro",
     },
     {
+      "name": "basic",
       "path": "basic",
+    },
+    {
+      "name": "operator",
+      "path": "operator",
     },
   ],
   "settings": {

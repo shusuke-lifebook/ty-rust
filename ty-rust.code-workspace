@@ -31,6 +31,10 @@
       "name": "lib-strings",
       "path": "lib-strings",
     },
+    {
+      "name": "lib-regex",
+      "path": "lib-regex",
+    },
   ],
   "settings": {
     // ============================================================

@@ -43,6 +43,10 @@
       "name": "lib-fileio",
       "path": "lib-fileio",
     },
+    {
+      "name": "lib-filesys",
+      "path": "lib-filesys",
+    },
   ],
   "settings": {
     // ============================================================

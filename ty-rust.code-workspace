@@ -39,6 +39,10 @@
       "name": "lib-datetime",
       "path": "lib-datetime",
     },
+    {
+      "name": "lib-fileio",
+      "path": "lib-fileio",
+    },
   ],
   "settings": {
     // ============================================================

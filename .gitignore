@@ -12,6 +12,7 @@ Cargo.lock
 
 # --- Logs ---
 *.log
+!data.log
 
 # --- Rustup / Toolchains ---
 .rustup/

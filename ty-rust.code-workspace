@@ -35,6 +35,10 @@
       "name": "lib-regex",
       "path": "lib-regex",
     },
+    {
+      "name": "lib-datetime",
+      "path": "lib-datetime",
+    },
   ],
   "settings": {
     // ============================================================

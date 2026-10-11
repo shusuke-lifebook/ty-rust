@@ -47,6 +47,10 @@
       "name": "lib-filesys",
       "path": "lib-filesys",
     },
+    {
+      "name": "library",
+      "path": "library",
+    },
   ],
   "settings": {
     // ============================================================

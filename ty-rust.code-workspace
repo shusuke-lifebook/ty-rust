@@ -51,6 +51,10 @@
       "name": "library",
       "path": "library",
     },
+    {
+      "name": "collection",
+      "path": "collection",
+    },
   ],
   "settings": {
     // ============================================================

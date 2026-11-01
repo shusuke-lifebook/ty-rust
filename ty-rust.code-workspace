@@ -55,6 +55,10 @@
       "name": "collection",
       "path": "collection",
     },
+    {
+      "name": "struc",
+      "path": "struc",
+    },
   ],
   "settings": {
     // ============================================================

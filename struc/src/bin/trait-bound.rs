@@ -6,6 +6,12 @@ struct Progress<T> {
     current: T, // 現在位置
 }
 
+impl<T> Progress<T> {
+    fn foward(&mut self) {
+        self.current += self.step;
+    }
+}
+
 fn main() {
     let progress = Progress {
         start: 0,

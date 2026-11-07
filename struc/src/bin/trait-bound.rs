@@ -14,7 +14,16 @@ struct Progress<T> {
 //     }
 // }
 
-impl<T: AddAssign + Copy> Progress<T> {
+// impl<T: AddAssign + Copy> Progress<T> {
+//     fn foward(&mut self) {
+//         self.current += self.step;
+//     }
+// }
+
+impl<T> Progress<T>
+where
+    T: AddAssign + Copy,
+{
     fn foward(&mut self) {
         self.current += self.step;
     }
